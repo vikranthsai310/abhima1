@@ -225,7 +225,7 @@ export default function Home() {
             {categoryTeasers.map((exp) => (
               <div key={exp.title} className={`group cursor-pointer ${exp.offset ? 'md:mt-24' : ''}`}>
                 <div className="aspect-[3/4] overflow-hidden mb-6 relative border border-primary-container/10 p-4">
-                  <img className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" src={exp.image} alt={exp.title} />
+                  <img className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700" src={exp.image} alt={exp.title} />
                 </div>
                 <span className="font-label text-primary text-[10px] uppercase tracking-widest block mb-2">{exp.label}</span>
                 <h3 className="font-headline text-xl mb-4 group-hover:text-primary transition-colors">{exp.title}</h3>

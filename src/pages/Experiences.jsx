@@ -116,7 +116,7 @@ export default function Experiences() {
                 <div className={isReversed ? 'lg:order-2' : ''}>
                   <div className="aspect-[3/2] overflow-hidden bg-surface-container">
                     <img
-                      className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                      className="w-full h-full object-cover transition-all duration-700"
                       src={cat.image}
                       alt={cat.title}
                     />

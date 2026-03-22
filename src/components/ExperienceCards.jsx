@@ -50,7 +50,7 @@ export default function ExperienceCards() {
             >
               <div className="aspect-[3/4] overflow-hidden mb-6 relative border border-primary-container/10 p-4">
                 <img
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700"
                   src={exp.image}
                   alt={exp.title}
                 />

@@ -68,7 +68,7 @@
 
 @layer components {
   .luxury-gradient {
-    background: linear-gradient(45deg, #755a24 0%, #c9a86a 100%);
+    background: #a07d3f;
   }
   .glass-nav {
     background: rgba(253, 249, 240, 0.75);
