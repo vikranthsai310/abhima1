@@ -52,7 +52,7 @@ export default function About() {
           </div>
           <div className="relative">
             <div className="aspect-[4/5] overflow-hidden bg-surface-container">
-              <img className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqBc2XuniBidN64iWjuu64124b4nHpcHbAryzsqFOIVTf1Gz-EiXMtDpyQOswppaskWRCpRLaz-gRUo5_ht98iCiCc5I9RqkrjdkbRVO-PINMKMIlI5I2yxhcccjy_WjvRYk2p1mTIqnQ7IQlgj_iXPg7X1vElVieh6Hi_Q7guwvZUrSRrsJJJucWJMfqtje4FWmIuWOwG-h5kPlPbVvc4zS68tpWYQJ9IOYrL_bt4frsXyiD8ig3ODZoaDDaAYbPUR8rWrOVF6s7i" alt="Abhima Events detail" />
+              <img className="w-full h-full object-cover transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqBc2XuniBidN64iWjuu64124b4nHpcHbAryzsqFOIVTf1Gz-EiXMtDpyQOswppaskWRCpRLaz-gRUo5_ht98iCiCc5I9RqkrjdkbRVO-PINMKMIlI5I2yxhcccjy_WjvRYk2p1mTIqnQ7IQlgj_iXPg7X1vElVieh6Hi_Q7guwvZUrSRrsJJJucWJMfqtje4FWmIuWOwG-h5kPlPbVvc4zS68tpWYQJ9IOYrL_bt4frsXyiD8ig3ODZoaDDaAYbPUR8rWrOVF6s7i" alt="Abhima Events detail" />
             </div>
           </div>
         </div>
@@ -126,7 +126,7 @@ export default function About() {
             <p className="font-headline text-xl italic text-primary">Other companies manage your event. We own it.</p>
           </div>
           <div className="aspect-square overflow-hidden bg-surface-container">
-            <img className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTvqyarJwcu95uLG6Dj20a0XuZjjSUiQQ8C5HDB9xx8rOj5eru2trmWh93QhQ2vLy9BHHQLhJWjnf9Yx7i5FERJrsnxAKm2X48gVEEo62R9KMeKlXQeD_M0Yi7-FT7Mqd7HOhCHEalGNCD7CK0ZFxdHz1q7ACCl456gcgOqdJIbN0lrcMl7hlkwS8iu4WQsBMNYb81-X8xKTM-7BdYkRL7cLxGUrKiImk9k4wbXZN5TNgKzVbpX0xpg5cp9rhU6BodABz8W8-xGHPb" alt="In-house craftsmanship" />
+            <img className="w-full h-full object-cover transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTvqyarJwcu95uLG6Dj20a0XuZjjSUiQQ8C5HDB9xx8rOj5eru2trmWh93QhQ2vLy9BHHQLhJWjnf9Yx7i5FERJrsnxAKm2X48gVEEo62R9KMeKlXQeD_M0Yi7-FT7Mqd7HOhCHEalGNCD7CK0ZFxdHz1q7ACCl456gcgOqdJIbN0lrcMl7hlkwS8iu4WQsBMNYb81-X8xKTM-7BdYkRL7cLxGUrKiImk9k4wbXZN5TNgKzVbpX0xpg5cp9rhU6BodABz8W8-xGHPb" alt="In-house craftsmanship" />
           </div>
         </div>
       </section>

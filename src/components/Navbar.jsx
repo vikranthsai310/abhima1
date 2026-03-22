@@ -45,10 +45,10 @@ export default function Navbar() {
             <Link
               key={link.label}
               to={link.path}
-              className={`relative font-label uppercase tracking-[0.15rem] text-[11px] transition-all duration-300 no-underline py-1 ${
+              className={`relative font-headline uppercase tracking-[0.12rem] text-[13px] font-semibold transition-all duration-300 no-underline py-1 ${
                 isActive(link.path)
-                  ? 'text-primary font-semibold'
-                  : 'text-on-surface/70 hover:text-primary'
+                  ? 'text-primary'
+                  : 'text-on-surface hover:text-primary'
               }`}
             >
               {link.label}
