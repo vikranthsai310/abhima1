@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Noto Serif", serif;
+  --font-body: "Manrope", sans-serif;
+  --font-label: "Manrope", sans-serif;
+  --font-display: "Playfair Display", serif;
+
+  --color-primary: #755a24;
+  --color-primary-container: #c9a86a;
+  --color-primary-fixed: #ffdea4;
+  --color-primary-fixed-dim: #e5c281;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #543d08;
+  --color-inverse-primary: #e5c281;
+
+  --color-secondary: #695c4e;
+  --color-secondary-container: #efddcb;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #6e6052;
+
+  --color-tertiary: #4e5e84;
+  --color-tertiary-container: #9cacd7;
+  --color-on-tertiary: #ffffff;
+
+  --color-surface: #fdf9f0;
+  --color-surface-dim: #dddad1;
+  --color-surface-bright: #fdf9f0;
+  --color-surface-container: #f1eee5;
+  --color-surface-container-low: #f7f3ea;
+  --color-surface-container-high: #ece8df;
+  --color-surface-container-highest: #e6e2d9;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-variant: #e6e2d9;
+  --color-surface-tint: #755a24;
+  --color-on-surface: #1c1c16;
+  --color-on-surface-variant: #4d463a;
+  --color-inverse-surface: #31302b;
+  --color-inverse-on-surface: #f4f0e7;
+
+  --color-background: #fdf9f0;
+  --color-on-background: #1c1c16;
+
+  --color-outline: #7f7668;
+  --color-outline-variant: #d0c5b5;
+
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-on-error: #ffffff;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    font-family: var(--font-body);
+    background-color: var(--color-background);
+    color: var(--color-on-surface);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  ::selection {
+    background-color: color-mix(in srgb, var(--color-primary-container) 30%, transparent);
+  }
+}
+
+@layer components {
+  .luxury-gradient {
+    background: linear-gradient(45deg, #755a24 0%, #c9a86a 100%);
+  }
+  .glass-nav {
+    background: rgba(253, 249, 240, 0.75);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+  .editorial-reveal:hover .reveal-content {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .reveal-content {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24;
+  }
+}
