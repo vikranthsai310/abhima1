@@ -249,7 +249,7 @@ export default function Home() {
           <div className="flex flex-wrap items-center justify-between gap-8 md:gap-12">
             {['Udaipur', 'Jaipur', 'Goa', 'Kerala', 'Hyderabad'].map((dest, i, arr) => (
               <span key={dest} className="flex items-center gap-8 md:gap-12">
-                <Link to="/destinations" className="font-headline text-2xl md:text-4xl text-outline-variant hover:text-primary transition-colors cursor-pointer no-underline">{dest}</Link>
+                <Link to="/destinations" className="font-headline text-2xl md:text-4xl text-primary no-underline">{dest}</Link>
                 {i < arr.length - 1 && <div className="h-[1px] w-8 bg-primary-container/20" />}
               </span>
             ))}
