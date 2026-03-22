@@ -45,10 +45,10 @@ export default function Navbar() {
             <Link
               key={link.label}
               to={link.path}
-              className={`relative font-headline uppercase tracking-[0.12rem] text-[13px] font-semibold transition-all duration-300 no-underline py-1 ${
+              className={`relative font-label uppercase tracking-[0.2rem] text-[12px] font-bold transition-all duration-300 no-underline py-1 ${
                 isActive(link.path)
                   ? 'text-primary'
-                  : 'text-on-surface hover:text-primary'
+                  : 'text-on-surface/80 hover:text-primary'
               }`}
             >
               {link.label}
@@ -60,7 +60,7 @@ export default function Navbar() {
         </div>
 
         {/* CTA Button */}
-        <Link to="/contact" className="hidden lg:inline-flex items-center gap-2 luxury-gradient text-on-primary px-7 py-2.5 font-label uppercase tracking-[0.15rem] text-[11px] transition-all duration-300 hover:opacity-90 active:scale-[0.97] no-underline">
+        <Link to="/contact" className="hidden lg:inline-flex items-center gap-2 luxury-gradient text-on-primary px-7 py-2.5 font-label uppercase tracking-[0.2rem] text-[12px] font-bold transition-all duration-300 hover:opacity-90 active:scale-[0.97] no-underline">
           Inquire
         </Link>
 
