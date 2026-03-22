@@ -34,8 +34,8 @@ export default function Navbar() {
   return (
     <nav className={`fixed top-0 w-full z-50 glass-nav border-b-[0.5px] border-primary-container/30 transition-shadow duration-500 ${scrolled ? 'shadow-sm' : ''}`}>
       <div className="flex justify-between items-center w-full px-6 md:px-12 py-6 max-w-[1920px] mx-auto">
-        <Link to="/" className="text-2xl font-headline tracking-[0.5rem] text-primary no-underline">
-          ABHIMA EVENTS
+        <Link to="/" className="no-underline">
+          <img src="/logo.png" alt="Abhima Events" className="h-14 w-auto" />
         </Link>
 
         <div className="hidden lg:flex items-center gap-10">

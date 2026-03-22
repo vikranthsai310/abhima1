@@ -33,8 +33,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-16 mb-20">
           {/* Brand */}
           <div className="md:col-span-4">
-            <Link to="/" className="font-headline text-3xl tracking-[0.3rem] text-primary no-underline block mb-4">
-              ABHIMA EVENTS
+            <Link to="/" className="no-underline block mb-4">
+              <img src="/logo.png" alt="Abhima Events" className="h-16 w-auto" />
             </Link>
             <p className="font-headline italic text-secondary text-lg mb-6">Crafting Events That Last a Lifetime</p>
             <div className="space-y-2 text-sm text-secondary">
