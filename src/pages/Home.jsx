@@ -141,26 +141,36 @@ export default function Home() {
 
       {/* Why Abhima */}
       <section className="py-32 bg-surface-container">
-        <div className="container mx-auto px-6">
-          <div className="flex flex-col lg:flex-row gap-20 items-start">
-            <div className="lg:w-1/3">
+        <div className="container mx-auto px-6 max-w-7xl">
+          {/* Header */}
+          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-20">
+            <div>
               <span className="font-label text-primary tracking-[0.2rem] uppercase text-xs mb-6 block">Why Abhima</span>
               <h2 className="font-headline text-5xl text-on-surface leading-tight">The Pillars of Our Craft.</h2>
-              <div className="mt-10 space-y-4">
-                {whyPoints.map((point) => (
-                  <div key={point} className="flex items-start gap-4">
-                    <span className="w-6 h-px bg-primary mt-3 shrink-0" />
-                    <p className="text-sm text-secondary leading-relaxed">{point}</p>
-                  </div>
-                ))}
-              </div>
             </div>
-            <div className="lg:w-2/3 grid grid-cols-1 md:grid-cols-3 gap-12">
-              {pillars.map((p) => (
-                <div key={p.title} className="space-y-6">
-                  <span className="material-symbols-outlined text-primary text-4xl">{p.icon}</span>
-                  <h4 className="font-headline text-xl text-on-surface">{p.title}</h4>
-                  <p className="text-sm text-secondary leading-relaxed">{p.description}</p>
+            <p className="text-secondary max-w-md leading-relaxed text-sm md:text-right">
+              Behind every extraordinary event lies a disciplined commitment to three non-negotiable standards.
+            </p>
+          </div>
+
+          {/* Three Pillars */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-20">
+            {pillars.map((p) => (
+              <div key={p.title} className="bg-surface/50 p-10 space-y-6">
+                <span className="material-symbols-outlined text-primary text-4xl">{p.icon}</span>
+                <h4 className="font-headline text-xl text-on-surface">{p.title}</h4>
+                <p className="text-sm text-secondary leading-relaxed">{p.description}</p>
+              </div>
+            ))}
+          </div>
+
+          {/* Why Points — horizontal strip */}
+          <div className="border-t border-primary-container/20 pt-12">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+              {whyPoints.map((point) => (
+                <div key={point} className="flex items-start gap-3">
+                  <span className="w-4 h-px bg-primary mt-2.5 shrink-0" />
+                  <p className="text-xs text-secondary leading-relaxed">{point}</p>
                 </div>
               ))}
             </div>
