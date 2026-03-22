@@ -76,14 +76,14 @@ export default function ProcessPage() {
                 )}
                 {i % 2 === 1 && (
                   <div className="aspect-[4/3] overflow-hidden">
-                    <img className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" src={step.image} alt={step.title} />
+                    <img className="w-full h-full object-cover transition-all duration-700" src={step.image} alt={step.title} />
                   </div>
                 )}
               </div>
               <div className={`md:col-span-7 ${i % 2 === 1 ? 'order-1 md:order-2' : ''}`}>
                 {i % 2 !== 1 && (
                   <div className="aspect-[4/3] overflow-hidden bg-surface-container-low">
-                    <img className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" src={step.image} alt={step.title} />
+                    <img className="w-full h-full object-cover transition-all duration-700" src={step.image} alt={step.title} />
                   </div>
                 )}
                 {i % 2 === 1 && (

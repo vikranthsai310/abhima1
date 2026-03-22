@@ -47,7 +47,7 @@ export default function PortfolioPage() {
           {portfolioCards.map((card) => (
             <div key={card.title} className={card.span}>
               <div className={`editorial-reveal group relative ${card.aspect} bg-surface-container overflow-hidden cursor-pointer`}>
-                <img className="w-full h-full object-cover grayscale-[20%] group-hover:scale-110 transition-transform duration-1000 ease-out" src={card.image} alt={card.title} />
+                <img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 ease-out" src={card.image} alt={card.title} />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#1c1c16]/90 via-[#3D3226]/20 to-transparent opacity-60 group-hover:opacity-90 transition-opacity duration-700" />
                 <div className="absolute inset-0 p-8 md:p-12 flex flex-col justify-end reveal-content">
                   <span className="font-label text-[10px] uppercase tracking-[0.3em] text-primary-container mb-3">{card.category}</span>

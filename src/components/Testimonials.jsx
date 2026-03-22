@@ -16,66 +16,66 @@ export default function Testimonials() {
 
       {/* Testimonials */}
       <div className="px-6 md:px-24 max-w-[1440px] mx-auto space-y-48">
-        {/* Testimonial 01 — Asymmetric Left */}
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
-          <div className="md:col-span-7 relative group">
+        {/* Testimonial 01 — Image Left, Text Right */}
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+          <div className="md:col-span-6">
             <div className="aspect-[4/5] overflow-hidden bg-surface-container">
               <img
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-cover"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxo7O5muSTpG2HNnq-qV5ByjLG9lgPCLBMJpE8HfhrZuCLC5LkPANUab7pbM_s2HeV-sdLXyE8jimgwKpeUKd47Zg7ggg3fXwEqFMFRZO_lBpVcnc_1_N5XBV5UycytUzxom34lazQxj2ZDp5UaNKVPaHXAdJyY6z-L9gf78iXsBn2TXk-EoZYdEvLwFY0vIJPF5MIZuyE4dORH0gsoAJWXia3BLjnv5dgf2FoEeFbYME5IrtRbTDvuRhG_1VxyIb3xi-DV2mouqiY"
                 alt="Luxurious wedding table setting with gold accents"
               />
             </div>
-            <div className="relative md:absolute md:-bottom-12 md:right-[-10%] bg-surface-container-lowest p-8 md:p-12 md:max-w-md shadow-sm mt-6 md:mt-0">
-              <span className="font-headline text-7xl text-primary-container leading-none select-none opacity-40">
-                &ldquo;
-              </span>
-              <blockquote className="font-headline text-2xl md:text-3xl text-on-surface italic leading-relaxed mb-8">
-                Abhima didn't just plan an event; they curated a visual
-                symphony. Every petal was perfectly placed, every light was
-                intentional.
-              </blockquote>
-              <div>
-                <p className="font-label text-sm uppercase tracking-[0.2rem] font-bold text-on-surface mb-1">
-                  Eleanor & Julian
-                </p>
-                <p className="font-label text-[10px] uppercase tracking-[0.1rem] text-secondary">
-                  Heritage Wedding, Udaipur
-                </p>
-              </div>
+          </div>
+          <div className="md:col-span-6 md:pl-8">
+            <span className="font-headline text-7xl text-primary-container leading-none select-none opacity-40">
+              &ldquo;
+            </span>
+            <blockquote className="font-headline text-2xl md:text-3xl text-on-surface italic leading-relaxed mb-8">
+              Abhima didn't just plan an event; they curated a visual
+              symphony. Every petal was perfectly placed, every light was
+              intentional.
+            </blockquote>
+            <div>
+              <p className="font-label text-sm uppercase tracking-[0.2rem] font-bold text-on-surface mb-1">
+                Eleanor & Julian
+              </p>
+              <p className="font-label text-[10px] uppercase tracking-[0.1rem] text-secondary">
+                Heritage Wedding, Udaipur
+              </p>
             </div>
           </div>
         </div>
 
-        {/* Testimonial 02 — Asymmetric Right */}
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start justify-end">
-          <div className="md:col-start-6 md:col-span-6 relative">
-            <div className="aspect-[16/9] overflow-hidden bg-surface-container">
+        {/* Testimonial 02 — Image Left, Text Right */}
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+          <div className="md:col-span-6">
+            <div className="aspect-[4/3] overflow-hidden bg-surface-container">
               <img
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-cover"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuDa5kCyYczARtHj6WLXsDX9amzPbNOlNI-eZ6TSdZpMo3a1o14_vTa3C7udEnj3Ex9Z3o9t_s7Mrb9uW7ZZx2Z7VYpIVpYl9K-ULIIa6-SmBNpmMj_bYFm1pEgpKubO9zE6XTWB7GBrhJmssA0NpkVonSQgKrDneFih9mw5dJ_weEObNlUjXaq5rf25_JU_2YX3v6qYPXTgJ8k6t3H3fgWVDGfuEbG6BqFFkhDwcZ7Y0SjgvpfyurcXfiddBLQblic7T2F8mUYFE_Te"
                 alt="Elegant corporate gala in a grand ballroom"
               />
             </div>
-            <div className="mt-12 md:pl-20">
-              <span className="font-headline text-7xl text-primary-container leading-none select-none opacity-40 block mb-[-2rem]">
-                &ldquo;
-              </span>
-              <blockquote className="font-headline text-2xl md:text-3xl text-on-surface italic leading-relaxed mb-8 max-w-lg">
-                An absolute masterclass in discretion and luxury. They
-                understood our need for privacy while delivering an unmatched
-                sensory experience.
-              </blockquote>
-              <div className="flex items-center gap-6">
-                <div className="w-10 h-px bg-primary" />
-                <div>
-                  <p className="font-label text-sm uppercase tracking-[0.2rem] font-bold text-on-surface mb-1">
-                    Marcus Thorne
-                  </p>
-                  <p className="font-label text-[10px] uppercase tracking-[0.1rem] text-secondary">
-                    Private Estate Soiree, London
-                  </p>
-                </div>
+          </div>
+          <div className="md:col-span-6 md:pl-8">
+            <span className="font-headline text-7xl text-primary-container leading-none select-none opacity-40">
+              &ldquo;
+            </span>
+            <blockquote className="font-headline text-2xl md:text-3xl text-on-surface italic leading-relaxed mb-8">
+              An absolute masterclass in discretion and luxury. They
+              understood our need for privacy while delivering an unmatched
+              sensory experience.
+            </blockquote>
+            <div className="flex items-center gap-6">
+              <div className="w-10 h-px bg-primary" />
+              <div>
+                <p className="font-label text-sm uppercase tracking-[0.2rem] font-bold text-on-surface mb-1">
+                  Marcus Thorne
+                </p>
+                <p className="font-label text-[10px] uppercase tracking-[0.1rem] text-secondary">
+                  Private Estate Soiree, London
+                </p>
               </div>
             </div>
           </div>
@@ -102,35 +102,33 @@ export default function Testimonials() {
           </div>
         </div>
 
-        {/* Testimonial 04 — Asymmetric Bottom */}
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-16 items-center">
-          <div className="md:col-span-5 order-2 md:order-1">
-            <div className="relative">
-              <span className="font-headline text-7xl text-primary-container leading-none opacity-40">
-                &ldquo;
-              </span>
-              <blockquote className="font-headline text-2xl md:text-3xl text-on-surface italic leading-relaxed mb-8">
-                Beyond management, it is artistry. They captured the essence of
-                our family heritage and wove it into every thread of the
-                celebration.
-              </blockquote>
-              <div>
-                <p className="font-label text-sm uppercase tracking-[0.2rem] font-bold text-on-surface mb-1">
-                  The Arnault Family
-                </p>
-                <p className="font-label text-[10px] uppercase tracking-[0.1rem] text-secondary">
-                  Centennial Celebration, Loire Valley
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="md:col-start-7 md:col-span-6 order-1 md:order-2">
-            <div className="aspect-square overflow-hidden bg-surface-container relative">
+        {/* Testimonial 04 — Image Left, Text Right */}
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+          <div className="md:col-span-6">
+            <div className="aspect-square overflow-hidden bg-surface-container">
               <img
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-cover"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuDA7wx0m2ID7Fap89mJ3zgoXt6rWANKBcCAvRDeew42FQb_FiGyPEp6x7Q6zoeLs8KcIFb8aoEuEzoK2m780RNwtBfTxkN46LmK2jDpEOfKVZCLAfHZN5-WHk5tQzHamku2tWCDr9HrnJqKs5xvWNBr85mRlgCplytx0jF5a-_jRm8CSPXO6w1rwIvK1Zpaj2bc6c88HfEAV_cxMiqAuTXblIGcRqfT__QYRP6Q566qFaxQN3tydP2vUhnhvDcXKmjCil7i_Fm4UFPH"
                 alt="Blurred night lights of a high-end outdoor party"
               />
+            </div>
+          </div>
+          <div className="md:col-span-6 md:pl-8">
+            <span className="font-headline text-7xl text-primary-container leading-none opacity-40">
+              &ldquo;
+            </span>
+            <blockquote className="font-headline text-2xl md:text-3xl text-on-surface italic leading-relaxed mb-8">
+              Beyond management, it is artistry. They captured the essence of
+              our family heritage and wove it into every thread of the
+              celebration.
+            </blockquote>
+            <div>
+              <p className="font-label text-sm uppercase tracking-[0.2rem] font-bold text-on-surface mb-1">
+                The Arnault Family
+              </p>
+              <p className="font-label text-[10px] uppercase tracking-[0.1rem] text-secondary">
+                Centennial Celebration, Loire Valley
+              </p>
             </div>
           </div>
         </div>

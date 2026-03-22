@@ -58,7 +58,7 @@ export default function Stories() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
               <div className={i % 2 === 1 ? 'order-2' : ''}>
                 <div className="aspect-[4/5] overflow-hidden bg-surface-container">
-                  <img className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" src={story.image} alt={story.title} />
+                  <img className="w-full h-full object-cover" src={story.image} alt={story.title} />
                 </div>
               </div>
               <div className={i % 2 === 1 ? 'order-1' : ''}>

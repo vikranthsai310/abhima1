@@ -182,7 +182,7 @@ export default function Home() {
       <section className="py-24 bg-surface-container-low">
         <div className="max-w-[1920px] mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-12 gap-8">
           <div className="md:col-span-7 relative overflow-hidden h-[400px] md:h-[600px]">
-            <img className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCm49pGWUDgCTC95P1nRxaZ8-C5kVSXFkWH0CK9CCvuIk4L8Pqpc5IPqwpS4uUJ2Ekgl06xp9yNyY4JupniURtE9-0g2XE7Eklxrq0BpHubackcgv0QLIDbFazKZFLq3PXgJKCZGUkKDH_b0L80Gkwzu2Qj3ZdmNvTvB4N7NIyYcxe0r6ToViVs6tpI4dSEAXMvR61BzFKeKafU-X20LIylfUy0YoFJn-GjqHbL6Wng8lP3QySnLAVMz8UZ76NlR-m8XrmFa6pUxkeO" alt="In-house event execution" />
+            <img className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCm49pGWUDgCTC95P1nRxaZ8-C5kVSXFkWH0CK9CCvuIk4L8Pqpc5IPqwpS4uUJ2Ekgl06xp9yNyY4JupniURtE9-0g2XE7Eklxrq0BpHubackcgv0QLIDbFazKZFLq3PXgJKCZGUkKDH_b0L80Gkwzu2Qj3ZdmNvTvB4N7NIyYcxe0r6ToViVs6tpI4dSEAXMvR61BzFKeKafU-X20LIylfUy0YoFJn-GjqHbL6Wng8lP3QySnLAVMz8UZ76NlR-m8XrmFa6pUxkeO" alt="In-house event execution" />
             <div className="absolute bottom-8 md:bottom-12 left-8 md:left-12 p-6 md:p-8 bg-surface/90 backdrop-blur-md max-w-sm">
               <span className="text-primary text-[10px] uppercase tracking-widest mb-4 block">In-House Capability</span>
               <h3 className="font-display text-2xl md:text-3xl mb-4">Everything Under One Roof</h3>

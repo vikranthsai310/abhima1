@@ -94,7 +94,7 @@ export default function Portfolio() {
                 className={`editorial-reveal group relative ${project.aspect} bg-surface-container overflow-hidden cursor-pointer`}
               >
                 <img
-                  className="w-full h-full object-cover grayscale-[20%] group-hover:scale-110 transition-transform duration-1000 ease-out"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 ease-out"
                   src={project.image}
                   alt={project.title}
                 />

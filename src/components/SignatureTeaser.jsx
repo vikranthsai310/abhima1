@@ -5,7 +5,7 @@ export default function SignatureTeaser() {
         {/* Large Image */}
         <div className="md:col-span-7 relative overflow-hidden h-[400px] md:h-[600px]">
           <img
-            className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+            className="w-full h-full object-cover"
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuCm49pGWUDgCTC95P1nRxaZ8-C5kVSXFkWH0CK9CCvuIk4L8Pqpc5IPqwpS4uUJ2Ekgl06xp9yNyY4JupniURtE9-0g2XE7Eklxrq0BpHubackcgv0QLIDbFazKZFLq3PXgJKCZGUkKDH_b0L80Gkwzu2Qj3ZdmNvTvB4N7NIyYcxe0r6ToViVs6tpI4dSEAXMvR61BzFKeKafU-X20LIylfUy0YoFJn-GjqHbL6Wng8lP3QySnLAVMz8UZ76NlR-m8XrmFa6pUxkeO"
             alt="Grand luxury ballroom gala event setting"
           />

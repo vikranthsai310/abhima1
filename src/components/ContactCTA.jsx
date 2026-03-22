@@ -8,7 +8,7 @@ export default function ContactCTA() {
           <div className="relative">
             <div className="h-[400px] md:h-[600px] w-full bg-surface-variant p-6">
               <img
-                className="w-full h-full object-cover grayscale contrast-125"
+                className="w-full h-full object-cover"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTvqyarJwcu95uLG6Dj20a0XuZjjSUiQQ8C5HDB9xx8rOj5eru2trmWh93QhQ2vLy9BHHQLhJWjnf9Yx7i5FERJrsnxAKm2X48gVEEo62R9KMeKlXQeD_M0Yi7-FT7Mqd7HOhCHEalGNCD7CK0ZFxdHz1q7ACCl456gcgOqdJIbN0lrcMl7hlkwS8iu4WQsBMNYb81-X8xKTM-7BdYkRL7cLxGUrKiImk9k4wbXZN5TNgKzVbpX0xpg5cp9rhU6BodABz8W8-xGHPb"
                 alt="Close up of high quality fabric texture and gold threads"
               />

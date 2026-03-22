@@ -85,7 +85,7 @@ export default function Process() {
                       {step.images.map((img, i) => (
                         <img
                           key={i}
-                          className={`w-full h-64 object-cover grayscale ${
+                          className={`w-full h-64 object-cover ${
                             i === 1 ? 'mt-12' : ''
                           }`}
                           src={img}
@@ -123,7 +123,7 @@ export default function Process() {
                   <div className="md:col-span-7 order-2 md:order-1">
                     <div className={`${step.imageAspect} overflow-hidden`}>
                       <img
-                        className="w-full h-full object-cover grayscale opacity-80"
+                        className="w-full h-full object-cover opacity-80"
                         src={step.image}
                         alt={step.title}
                       />
@@ -177,7 +177,7 @@ export default function Process() {
                     className={`${step.imageAspect} overflow-hidden bg-surface-container-low`}
                   >
                     <img
-                      className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                      className="w-full h-full object-cover"
                       src={step.image}
                       alt={step.title}
                     />
@@ -200,7 +200,7 @@ export default function Process() {
             </h3>
             <div className="aspect-video w-full mb-12 overflow-hidden">
               <img
-                className="w-full h-full object-cover grayscale brightness-90"
+                className="w-full h-full object-cover brightness-90"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXS-UwZy7C91QjegCiRN9wTaI45hmFrSb0AetnOkh_7t1cDW5s0bdd_1MbTKpd_lme59_t3hM3PM7hcsqysyHhlg_kzDHebFra3nQ8x1gQk188gwqYwhw_hfeqgRQdE0DpEz-2W_n-XPmiypEnjzzC26ErE0HUOtl7YqdDy9wZ78Yo5RXcBSNHzFpyfYFKkUU77_yITdCQF79xMCHcmdEvNRKoqP7QqbpOO_kRrxq6CQlRrlBJD3EvTW7aBd6RL7WR9gpFOoLOoRTu"
                 alt="Elegant luxury dining room prepared for a gala"
               />

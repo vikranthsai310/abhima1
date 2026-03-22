@@ -72,31 +72,26 @@ export default function TestimonialsPage() {
           const isRight = t.layout === 'right'
 
           return (
-            <div key={i} className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
-              {!isRight && t.image && (
-                <div className="md:col-span-7 relative group">
+            <div key={i} className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+              {/* Image */}
+              <div className={isRight ? 'md:order-2' : ''}>
+                {t.image && (
                   <div className="aspect-[4/5] overflow-hidden bg-surface-container">
-                    <img className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" src={t.image} alt={t.event} />
-                  </div>
-                </div>
-              )}
-              <div className={isRight ? 'md:col-start-6 md:col-span-7' : 'md:col-span-5'}>
-                {isRight && t.image && (
-                  <div className="aspect-[16/9] overflow-hidden bg-surface-container mb-12">
-                    <img className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" src={t.image} alt={t.event} />
+                    <img className="w-full h-full object-cover" src={t.image} alt={t.event} />
                   </div>
                 )}
-                <div className={isRight ? 'md:pl-12' : ''}>
-                  <span className="font-headline text-7xl text-primary-container leading-none select-none opacity-40 block mb-[-1rem]">&ldquo;</span>
-                  <blockquote className="font-headline text-2xl md:text-3xl text-on-surface italic leading-relaxed mb-8">
-                    {t.quote}
-                  </blockquote>
-                  <div className="flex items-center gap-6">
-                    <div className="w-10 h-px bg-primary" />
-                    <div>
-                      <p className="font-label text-sm uppercase tracking-[0.2rem] font-bold text-on-surface mb-1">{t.by}</p>
-                      <p className="font-label text-[10px] uppercase tracking-[0.1rem] text-secondary">{t.event}</p>
-                    </div>
+              </div>
+              {/* Quote */}
+              <div className={isRight ? 'md:order-1' : ''}>
+                <span className="font-headline text-7xl text-primary-container leading-none select-none opacity-40 block mb-[-1rem]">&ldquo;</span>
+                <blockquote className="font-headline text-xl md:text-2xl text-on-surface italic leading-relaxed mb-8">
+                  {t.quote}
+                </blockquote>
+                <div className="flex items-center gap-6">
+                  <div className="w-10 h-px bg-primary" />
+                  <div>
+                    <p className="font-label text-sm uppercase tracking-[0.2rem] font-bold text-on-surface mb-1">{t.by}</p>
+                    <p className="font-label text-[10px] uppercase tracking-[0.1rem] text-secondary">{t.event}</p>
                   </div>
                 </div>
               </div>

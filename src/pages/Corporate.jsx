@@ -106,7 +106,7 @@ export default function Corporate() {
             </div>
           </div>
           <div className="aspect-square overflow-hidden bg-surface-container-high">
-            <img className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC392Q7AW2ivDqmr03y0YR4KBXM4t1IAnTmJOK4QCtzPno_u0MhXBqUWjBk2R5MUv680p98Y9SR_yQBlEoPhserNre6s7wgTv-j-MrzLcDX_PUBhxphzp3_DS8bIfqlIKcuFmzRPO3nZS0xzshmEZRVZW2RVxBcs1U_BJONoOI07TRbtHDSh_Y7o8QL5s3b6j460WR72XCatBp9ifhS1lCRGzbtWh4V3wEOS0WCL_JTSlYd1occw-xBPGzE3Az2q67DvL4r7aXVsvX4" alt="Corporate event" />
+            <img className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC392Q7AW2ivDqmr03y0YR4KBXM4t1IAnTmJOK4QCtzPno_u0MhXBqUWjBk2R5MUv680p98Y9SR_yQBlEoPhserNre6s7wgTv-j-MrzLcDX_PUBhxphzp3_DS8bIfqlIKcuFmzRPO3nZS0xzshmEZRVZW2RVxBcs1U_BJONoOI07TRbtHDSh_Y7o8QL5s3b6j460WR72XCatBp9ifhS1lCRGzbtWh4V3wEOS0WCL_JTSlYd1occw-xBPGzE3Az2q67DvL4r7aXVsvX4" alt="Corporate event" />
           </div>
         </div>
       </section>
