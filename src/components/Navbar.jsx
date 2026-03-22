@@ -70,24 +70,39 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu — Full Screen Overlay */}
       {mobileOpen && (
-        <div className="lg:hidden px-6 pb-8 pt-4 flex flex-col gap-1 glass-nav border-t border-primary-container/10">
-          {navLinks.map((link) => (
-            <Link
-              key={link.label}
-              to={link.path}
-              className={`font-label uppercase tracking-[0.15rem] text-[11px] py-3 px-3 no-underline transition-colors duration-300 ${
-                isActive(link.path)
-                  ? 'text-primary bg-primary/5 font-semibold'
-                  : 'text-on-surface/70 hover:text-primary hover:bg-primary/5'
-              }`}
-            >
-              {link.label}
+        <div className="lg:hidden fixed inset-0 top-0 z-50 bg-surface flex flex-col">
+          {/* Mobile Header */}
+          <div className="flex items-center justify-between px-6 h-20 shrink-0 border-b border-primary-container/10">
+            <Link to="/" className="no-underline shrink-0">
+              <img src="/logo.png" alt="Abhima Events" className="h-12 w-auto" />
             </Link>
-          ))}
-          <div className="mt-4 pt-4 border-t border-primary-container/10">
-            <Link to="/contact" className="luxury-gradient text-on-primary px-8 py-3 font-label uppercase tracking-[0.15rem] text-[11px] text-center no-underline block">
+            <button className="text-primary p-1" onClick={() => setMobileOpen(false)}>
+              <span className="material-symbols-outlined text-2xl">close</span>
+            </button>
+          </div>
+
+          {/* Mobile Links */}
+          <div className="flex flex-col gap-2 px-8 pt-8 flex-1">
+            {navLinks.map((link) => (
+              <Link
+                key={link.label}
+                to={link.path}
+                className={`font-label uppercase tracking-[0.2rem] text-[13px] font-bold py-4 px-4 no-underline transition-colors duration-300 border-b border-primary-container/10 ${
+                  isActive(link.path)
+                    ? 'text-primary'
+                    : 'text-on-surface/80 hover:text-primary'
+                }`}
+              >
+                {link.label}
+              </Link>
+            ))}
+          </div>
+
+          {/* Mobile CTA */}
+          <div className="px-8 pb-10">
+            <Link to="/contact" className="luxury-gradient text-on-primary px-8 py-4 font-label uppercase tracking-[0.2rem] text-[13px] font-bold text-center no-underline block">
               Inquire
             </Link>
           </div>
