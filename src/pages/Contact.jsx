@@ -107,7 +107,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <label className="block font-label text-[10px] tracking-widest uppercase text-secondary mb-2">Guest Count (Approx.)</label>
-                  <input name="guestCount" value={form.guestCount} onChange={handleChange} className="w-full bg-transparent border-0 border-b border-outline-variant focus:ring-0 focus:border-primary px-0 pb-4 font-body outline-none" type="number" min="1" placeholder="e.g. 200" />
+                  <input name="guestCount" value={form.guestCount} onChange={handleChange} className="w-full bg-transparent border-0 border-b border-outline-variant focus:ring-0 focus:border-primary px-0 pb-4 font-body outline-none" type="text" inputMode="numeric" placeholder="e.g. 200" />
                 </div>
               </div>
 
